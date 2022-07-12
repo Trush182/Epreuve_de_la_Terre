@@ -1,0 +1,9 @@
+input = ARGV[0].to_i
+
+if input.to_s != ARGV[0]
+  puts "Don't bullshit me."
+elsif (input % 2).zero?
+  puts 'Pair'
+else
+  puts 'Impair'
+end
