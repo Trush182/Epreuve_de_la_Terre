@@ -1,0 +1,22 @@
+input = ARGV[0].to_i
+
+if input.to_s
+  puts "Don't bullshit me"
+elsif input.class == NilClass
+  puts 'Error'
+  exit
+end
+
+if (input.to_i % 2).zero?
+  puts 'pair'
+else
+  puts 'impair'
+end
+
+# input = ARGV[0].to_i
+
+# if input.integer?
+#     puts "entier"
+# else
+#     puts "pas entier"
+# end

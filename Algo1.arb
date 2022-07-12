@@ -1,0 +1,5 @@
+letters = ("a".."z")
+
+alphabet = letters.map do |a|
+    print a
+end 

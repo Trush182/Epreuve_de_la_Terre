@@ -1,0 +1,4 @@
+# nom = File.basename("/home/thomas/code/Trush182/Algo/Algo2.rb")
+# puts nom
+
+puts $0
