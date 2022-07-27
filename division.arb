@@ -1,0 +1,16 @@
+first_num = ARGV[0].to_i
+sec_num = ARGV[1].to_i
+
+if sec_num.zero?
+  puts "erreur"
+  exit
+end
+
+div = first_num / sec_num
+
+if first_num >= sec_num
+  puts "résultat = #{div}"
+  puts "reste =  #{first_num.remainder(sec_num)}"
+elsif sec_num > first_num
+  puts "erreur"
+end
